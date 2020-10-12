@@ -1,6 +1,17 @@
+In this project we will be building a Netflix Clone using React JS and using Firebase as the backend to the app. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+
+
+# Instructions to get started
+
+Setup project environment. I used Visual Studio to build the app. 
+In your terminal install ( npx create-react-app ) to start to the project. https://reactjs.org/docs/create-a-new-react-app.html
+Create an account with https://themoviedb.org make an API key to get started.
+Create and name a new project in Googles Firebase. https://firebase.google.com/
+
+### Available Scripts
 
 In the project directory, you can run:
 

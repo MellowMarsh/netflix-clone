@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!--
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -21,224 +22,20 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
+  <title>React App</title>
+</head>
 
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <div class="app">
-      <div class="nav nav_black">
-        <img
-          class="nav_logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_Netflix.png"
-          alt="Netflix Logo"
-        />
-        <img
-          class="nav_avatar"
-          src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
-          alt="Avatar logo"
-        />
-      </div>
-      <header
-        class="banner"
-        style="
-          background-size: cover;
-          background-image: url('https://image.tmdb.org/t/p/original//56v2KjBlU4XaOv9rVYEQypROD7P.jpg');
-          background-position: center center;
-        "
-      >
-        <div class="banner__contents">
-          <h1 class="banner__title">Stranger Things</h1>
-          <div class="banner__buttons">
-            <button class="banner__button">Play</button
-            ><button class="banner__button">My List</button>
-          </div>
-          <h1 class="banner__description">
-            When a young boy vanishes, a small town uncovers a mystery involving
-            secret experiments, terrifying supernatural forces, and one strange
-            little girl.
-          </h1>
-        </div>
-        <div class="banner--fadeBottom"></div>
-      </header>
-      <div class="row">
-        <h2>NETFLIX ORIGINALS</h2>
-        <div class="row__posters">
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg"
-            alt="Lucifer"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//kwMqIYOC4U9eK4NZnmmyD8pDEOi.jpg"
-            alt="Emily in Paris"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//eTMMU2rKpZRbo9ERytyhwatwAjz.jpg"
-            alt="Cobra Kai"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg"
-            alt="The Umbrella Academy"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//MoEKaPFHABtA1xKoOteirGaHl1.jpg"
-            alt="Money Heist"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//uxFNAo2A6ZRcgNASLk02hJUbybn.jpg"
-            alt="Dark Desire"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//3NTAbAiao4JLzFQw6YxP1YZppM8.jpg"
-            alt="Elite"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg"
-            alt="Dark"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg"
-            alt="Stranger Things"
-          /><img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//mXnTwXrqfZoFppChf6s2LlAFXM5.jpg"
-            alt="Close Enough"
-          /><img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//cDNxOIm6K5D2W21QyJWZ95sJzQt.jpg"
-            alt="Ratched"
-          /><img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//jWTDtbp2TnUGw1OJoDqq2O9IS0M.jpg"
-            alt="Jurassic World: Camp Cretaceous"
-          /><img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//6P6tXhjT5tK3qOXzxF9OMLlG7iz.jpg"
-            alt="Anne with an E"
-          /><img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg"
-            alt="The Haunting of Bly Manor"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//5uF9KDU5oxcWdAw2x4k2QGMPyQm.jpg"
-            alt="The Playbook"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//4Bph0hhnDH6dpc0SZIV522bLm4P.jpg"
-            alt="Sex Education"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//gMKgk7uOdzIiobo8whN8jA0eXTy.jpg"
-            alt="Good Morning, Verônica"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//bBBpi5pgOEZlCOgx2q116oPdJnx.jpg"
-            alt="The Rain"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//u6MpSEaUlDEv7KCn49aHhtTQ43L.jpg"
-            alt="Kengan Ashura"
-          />
-          <img
-            class="row__poster row__posterLarge"
-            src="https://image.tmdb.org/t/p/original//yxMpoHO0CXP5o9gB7IfsciilQS4.jpg"
-            alt="Chilling Adventures of Sabrina"
-          />
-        </div>
-      </div>
-      <div class="row">
-        <h2>Trending Now</h2>
-        <div class="row__posters">
-          <img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//isevY1UDcpaAYlYo7IqoSAU9s81.jpg"
-            alt="The Haunting of Bly Manor"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//aOeshAxAhiDVIiHsXVFmF6bgclh.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//mGVrXeIjyecj6TKmwPVpHlscEmw.jpg"
-            alt="The Boys"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//kMe4TKMDNXTKptQPAdOF0oZHq3V.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//zzWGRw277MNoCs3zhyG3YmYQsXv.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//pLVrN9B750ehwTFdQ6n3HRUERLd.jpg"
-            alt="The Walking Dead: World Beyond"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//1fOwb62XudDlevVyu1rqUlHUrES.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//na2xUduK8HviOFT97TiFG2MkJmY.jpg"
-            alt="Raised by Wolves"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//wXXaPMgrv96NkH8KD1TMdS2d7iq.jpg"
-            alt="The Walking Dead"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//oJgcdLYsZ5WYKAteH1gwypLcNVM.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//rUeqBuNDR9zN6vZV9kpEFMtQm0E.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//75ooojtgiKYm5LcCczbCexioZze.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//9pHxv7TX0jOKNgnGMDP6RJ2m1GL.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//oSSEcPDfwgZSv2i01Oqxdb9t8fI.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//wzJRB4MKi3yK138bJyuL9nx47y6.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//fvmMtehtEL50A5DqwCoGpTIuVQB.jpg"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//iW74tZ8y2qobdpt4J9UQ71sw8q7.jpg"
-            alt="Emily in Paris"
-          /><img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//54yOImQgj8i85u9hxxnaIQBRUuo.jpg"
-          />
-          <img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//58PON1OrnBiX6CqEHgeWKVwrCn6.jpg"
-            alt="Fear the Walking Dead"
-          />
-          <img
-            class="row__poster undefined"
-            src="https://image.tmdb.org/t/p/original//qx7qy2GJOc7yGY6WENyBU3OVv7A.jpg"
-            alt="Lovecraft Country"
-          />
-        </div>
-      </div>
-    </div>
-    <script src="/static/js/Row.js"></script>
-  </body>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+          This HTML file is a template.
+          If you open it directly in the browser, you will see an empty page.
+    You can add webfonts, meta tags, or analytics to this file.
+          The build step will place the bundled scripts into the <body> tag.
+    To begin the development, run `npm start` or `yarn start`.
+          To create a production bundle, use `npm run build` or `yarn build`.
+        -->
+</body>
+
 </html>

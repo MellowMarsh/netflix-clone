@@ -28,6 +28,7 @@ function Row({ title, fetchUrl }) {
         {/* several row_poster(s) */}
         {movies.map((movie) => (
           <img
+            key={movie.id}
             className="row_poster row__posterLarge"
             scr={`${base_url}${movie.poster_path}`}
             alt={movie.name}

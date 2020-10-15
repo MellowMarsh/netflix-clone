@@ -2,9 +2,14 @@
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
+  padding: 20px;
 }
 
-.row_posters img {
+.row_poster::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
   object-fit: contain;
   width: 100%;
   max-height: 100px;
@@ -15,4 +20,8 @@
 .row_poster:hover {
   transform: scale(1.08);
   opacity: 1;
+}
+
+.row_posterLarge {
+  max-height: 250px;
 }
